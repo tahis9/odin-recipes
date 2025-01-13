@@ -1,0 +1,28 @@
+/* styles.css */
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+html {
+  background-color:#f9f9f7;
+}
+
+/* p {
+  line-height: 20px;
+  margin-bottom: 0px;
+} */
+
+ul li,
+ol li {
+  text-align: left;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FF474C;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
