@@ -1,22 +1,46 @@
 /* styles.css */
 
-* {
+html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 
-body {
-  background-color:#f9f9f7;
+.indexbody {
+  background-color: #efeee8;
 }
 
-/* p {
-  line-height: 20px;
-  margin-bottom: 0px;
-} */
+.recipebody {
+  background-color: #f9f9f7;
+}
+
+.indexbody .title {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #aa6c39;
+  font-weight: 800;
+}
 
 ul li,
 ol li {
   text-align: left;
+}
+
+.recipelist {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 18px;
+  background-color: aliceblue;
+  padding: 16px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.recipelist > li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.indexlink a {
+  text-decoration: none;
+  color: #008080;
 }
 
 .sectiontitle {
@@ -24,5 +48,6 @@ ol li {
   font-weight: 600;
   color: #FF474C;
   line-height: 20px;
+  padding: 0px;
   margin-bottom: 0px;
 }
