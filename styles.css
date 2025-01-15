@@ -3,6 +3,7 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  font-size: 18px;
 }
 
 .indexbody {
@@ -27,13 +28,14 @@ html {
 
 .recipebody {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .recipeimage {
   display: flex;
   justify-content: center;
   flex-grow: 1;
+  align-items: baseline;
 }
 
 .recipeimage img {
@@ -47,7 +49,18 @@ html {
 .recipecontent {
   width: 500px;
   padding: 0 20px;
-  flex-grow: 5;
+  flex: 5 1 auto;
+  align-self: center;
+}
+
+@media (max-width: 850px) {
+  .recipebody {
+    flex-direction: column;
+  
+  }
+  /* .recipeimage {
+    min-height: 1000px;
+  } */
 }
 
 
