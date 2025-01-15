@@ -11,6 +11,7 @@ html {
 
 .recipebody {
   background-color: #f9f9f7;
+  margin: 0 24px;
 }
 
 .indexbody .title {
@@ -19,12 +20,25 @@ html {
   font-weight: 800;
 }
 
+.recipeimage {
+  display: inline-block;
+  width: 350px;
+  height: auto;
+  vertical-align: top;
+}
+
+.recipecontent {
+  display: inline-block;
+  width: 650px;
+  padding: 0 20px;
+}
+
 ul li,
 ol li {
   text-align: left;
 }
 
-.recipelist {
+.list.links {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 18px;
   background-color: aliceblue;
@@ -33,7 +47,7 @@ ol li {
   width: 300px;
 }
 
-.recipelist > li {
+.list.links > li {
   list-style-type: none;
   text-align: center;
 }
