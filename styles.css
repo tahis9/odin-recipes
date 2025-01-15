@@ -47,9 +47,9 @@ html {
 }
 
 .recipecontent {
-  width: 500px;
+  min-width: 150px;
   padding: 0 20px;
-  flex: 5 1 auto;
+  flex: 4 1 auto;
   align-self: center;
 }
 
