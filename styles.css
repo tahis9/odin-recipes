@@ -9,9 +9,9 @@ html {
   background-color: #efeee8;
 }
 
-.recipebody {
+.recipepage {
   background-color: #f9f9f7;
-  margin: 0 24px;
+  padding: 0 24px;
 }
 
 .indexbody .title {
@@ -20,18 +20,35 @@ html {
   font-weight: 800;
 }
 
+.recipepage h1 {
+  padding: 0 0 0.5em;
+  margin: 0;
+}
+
+.recipebody {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .recipeimage {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.recipeimage img {
   width: 350px;
   height: auto;
-  vertical-align: top;
+  align-self: flex-start;
+  margin-bottom: 20px;
 }
 
 .recipecontent {
-  display: inline-block;
-  width: 650px;
+  width: 500px;
   padding: 0 20px;
+  flex-grow: 2;
 }
+
 
 ul li,
 ol li {
@@ -63,5 +80,5 @@ ol li {
   color: #FF474C;
   line-height: 20px;
   padding: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
